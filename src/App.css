@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@500;600;700&display=swap");
+.bubble-btn span {
+  left: calc((var(--n) - 1) * 25%);
+  transition-delay: calc((var(--n) - 1) * 0.1s);
+}
+
+.bubble-btn span:nth-child(1) {
+    --n: 1;
+}
+
+.bubble-btn span:nth-child(2) {
+    --n: 2;
+}
+
+.bubble-btn span:nth-child(3) {
+    --n: 3;
+}
+
+.bubble-btn span:nth-child(4) {
+    --n: 4;
+}
+.button2:hover + .button2-hover-gradient defs linearGradient stop:not(last-child){
+stop-color: #51C8EF;
+}
+.button2:hover + .button2-hover-gradient defs linearGradient stop:last-child{
+stop-color: #FFFFFF;
+}
