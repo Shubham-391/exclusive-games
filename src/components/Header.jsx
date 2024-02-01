@@ -12,7 +12,7 @@ function Header() {
     <>
       <div className="min-h-screen min-[1200px]:min-h-[810px] min-[1441px]:min-h-screen w-full bg-headerbg bg-cover bg-no-repeat bg-center flex flex-col">
         {/* navbar */}
-        <div className="bg-[rgba(255,255,255,0.1)] w-full h-[90px]">
+        <div className="bg-[rgba(255,255,255,0.1)] w-full h-[60px] sm:h-[90px]">
           <nav className="max-w-[1164px] mx-auto px-3 flex items-center justify-between h-full">
             <a className="shrink-0 z-10" href="" onClick={() => setOpen(false)}>
               <img
