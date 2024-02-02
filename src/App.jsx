@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Section1 from "./components/Section1.jsx";
+import Section2 from "./components/Section2.jsx";
 
 function App() {
   useEffect(() => {
@@ -11,8 +12,11 @@ function App() {
   }, []);
   return (
     <>
-      <Header />
-      <Section1/>
+      <div className="overflow-hidden">
+        <Header />
+        <Section1 />
+        <Section2 />
+      </div>
     </>
   );
 }

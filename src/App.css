@@ -19,9 +19,6 @@
 .bubble-btn span:nth-child(4) {
     --n: 4;
 }
-.button2:hover + .button2-hover-gradient defs linearGradient stop:not(last-child){
-stop-color: #51C8EF;
-}
-.button2:hover + .button2-hover-gradient defs linearGradient stop:last-child{
+.button2:hover + .button2-hover-gradient defs linearGradient .stop2{
 stop-color: #FFFFFF;
 }

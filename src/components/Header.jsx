@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../assets/images/logo.webp';
+import Button1 from './Button1';
+import Button2 from "./Button2";
 
 function Header() {
   const [open, setOpen] = useState(false);
@@ -94,33 +96,7 @@ function Header() {
                   </a>
                 </li>
               </ul>
-              <div className="relative">
-                <button
-                  className="group bubble-btn font-inter font-bold text-base leading-[25.6px] text-white border border-solid border-white rounded-[41px] px-[46px] py-[13px] relative overflow-hidden duration-500 z-[1] hover:text-black"
-                  onClick={() => setOpen(false)}
-                >
-                  Acceso{" "}
-                  <span className="absolute w-[25%] h-full bg-white translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-                  <span className="absolute w-[25%] h-full bg-white translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-                  <span className="absolute w-[25%] h-full bg-white translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-                  <span className="absolute w-[25%] h-full bg-white translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-                </button>
-                <svg
-                  className="absolute bottom-[-7px] left-[-6px]"
-                  width="106"
-                  height="28"
-                  viewBox="0 0 106 28"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1 1C1 15.3594 12.6406 27 27 27H105"
-                    stroke="white"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                  />
-                </svg>
-              </div>
+              <Button1 text="Acceso" />
             </div>
           </nav>
         </div>
@@ -142,47 +118,7 @@ function Header() {
               lo largo de nuestra vida consumimos todo tipo de juegos hasta que
               un día decidimos crear los propios.
             </p>
-            <div className="relative ">
-              <button className="group button2 bubble-btn font-inter font-bold text-base leading-[25.6px] text-black bg-button2bg border border-solid border-transparent rounded-[41px] px-[46px] py-[13px] relative overflow-hidden duration-500 z-[1] hover:text-black">
-                Empezar
-                <span className="absolute w-[25%] h-full bg-button2bg2 translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-                <span className="absolute w-[25%] h-full bg-button2bg2 translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-                <span className="absolute w-[25%] h-full bg-button2bg2 translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-                <span className="absolute w-[25%] h-full bg-button2bg2 translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-              </button>
-              <svg
-                className="absolute bottom-[-7px] left-[-6px] button2-hover-gradient"
-                width="107"
-                height="28"
-                viewBox="0 0 107 28"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M1.5 1C1.5 15.3594 13.1406 27 27.5 27H105.5"
-                  stroke="url(#paint0_linear_1867_11)"
-                  strokeWidth="1.5"
-                  strokeLinecap="round"
-                />
-                <defs>
-                  <linearGradient
-                    id="paint0_linear_1867_11"
-                    x1="134.466"
-                    y1="25.6913"
-                    x2="113.531"
-                    y2="-37.3975"
-                    gradientUnits="userSpaceOnUse"
-                  >
-                    <stop className="duration-500" stopColor="#51C8EF" />
-                    <stop
-                      className="duration-500"
-                      offset="1"
-                      stopColor="#7AF57A"
-                    />
-                  </linearGradient>
-                </defs>
-              </svg>
-            </div>
+            <Button2 text="Empezar" />
           </div>
         </div>
       </div>

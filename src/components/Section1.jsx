@@ -6,7 +6,7 @@ import section1arrow1 from "../assets/images/section1arrow1.webp";
 function Section1() {
   return (
     <>
-      <div className="relative overflow-hidden">
+      <div className="relative">
         <div className="max-w-[1164px] mx-auto px-3 mt-12 sm:mt-[75px] mb-12 sm:mb-[100px] flex flex-wrap gap-6 min-[1150px]:gap-0 relative z-[3]">
           <div className="w-full min-[1150px]:w-1/2 flex flex-col items-center min-[1150px]:items-start">
             <div className="max-w-[538px] w-full flex flex-col items-center min-[1150px]:items-start">
