@@ -4,9 +4,9 @@ function Button1(props) {
   return (
     <>
       <div className="relative">
-        <button
+        <button 
           className="group bubble-btn font-inter font-bold text-base leading-[25.6px] text-white border border-solid border-white rounded-[41px] px-[46px] py-[13px] relative overflow-hidden duration-500 z-[1] hover:text-black"
-          onClick={() => setOpen(false)}
+          onClick={props.click}
         >
           {props.text}
           <span className="absolute w-[25%] h-full bg-white translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>

@@ -96,7 +96,7 @@ function Header() {
                   </a>
                 </li>
               </ul>
-              <Button1 text="Acceso" />
+              <Button1 click={() => setOpen(false)} text="Acceso" />
             </div>
           </nav>
         </div>
