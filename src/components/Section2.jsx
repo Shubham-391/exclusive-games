@@ -178,8 +178,7 @@ function Section2() {
             text="Mostrar más"
             className="mt-10"
           />
-        </div>
-        <div className="absolute rounded-[50%] w-[484px] h-[484px] bg-button2bg opacity-50 top-0 right-[-21%] blur-[190px] z-[-1]"></div>
+        </div>        
       </div>
     </>
   );

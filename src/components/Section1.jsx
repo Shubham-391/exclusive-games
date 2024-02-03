@@ -118,6 +118,7 @@ function Section1() {
         </div>
         <div className="absolute w-[242px] blur-[360px] sm:w-[484px] h-[242px] sm:h-[484px] rounded-[50%] bg-button2bg opacity-50 top-[5%] left-[-22%] "></div>
         <div className="absolute w-[50px] sm:w-[100px] h-[50px] sm:h-[100px] opacity-70 rounded-[50%] bg-button2bg top-[45%] left-[48%] blur-[55px]"></div>
+        <div className="absolute rounded-[50%] w-[484px] h-[484px] bg-button2bg opacity-50 bottom-[-70%] right-[-21%] blur-[190px] z-[-1]"></div>
       </div>
     </>
   );

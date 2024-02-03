@@ -17,6 +17,7 @@ export default {
       section3bg: "url(/src/assets/images/section3bg.webp)",
       section3bg2: "url(/src//assets//images/section3bg2.webp)",
       section3bg3: "url(/src/assets/images/section3bg3.webp)",
+      section4bg: "url(/src/assets/images/section4bg.webp)",
       bgtick: "url(/src//assets//images/tick.webp)",
     },
   },
