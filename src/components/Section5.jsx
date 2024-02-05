@@ -38,7 +38,7 @@ function Section5() {
   ];
   return (
     <>
-      <div className="min-[1200px]:translate-y-[-455px] min-[1441px]:translate-y-0 mt-12 md:mt-[100px] mb-12 sm:mb-[150px] relative">
+      <div className="min-[1200px]:translate-y-[-455px] min-[1441px]:translate-y-0 mt-12 md:mt-[100px] mb-12 sm:mb-[150px] min-[1200px]:mb-[100px] min-[1441px]:mb-[150px] relative" id="section5">
         {/* part1 */}
         <div className="max-w-[1164px] mx-auto px-3 w-full flex flex-wrap gap-y-6 relative z-[1]">
           <div

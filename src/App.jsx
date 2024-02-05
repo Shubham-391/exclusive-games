@@ -8,6 +8,9 @@ import Section2 from "./components/Section2.jsx";
 import Section3 from "./components/Section3.jsx";
 import Section4 from "./components/Section4.jsx";
 import Section5 from "./components/Section5.jsx";
+import Footer from "./components/Footer.jsx";
+import Top from "./components/Top.jsx";
+import Preloader from "./components/Preloader.jsx";
 
 function App() {
   useEffect(() => {
@@ -15,13 +18,16 @@ function App() {
   }, []);
   return (
     <>
-      <div className="overflow-hidden">
+      <Preloader/>
+      <div className="!overflow-hidden relative">
         <Header />
         <Section1 />
         <Section2 />
         <Section3 />
         <Section4 />
-        <Section5/>
+        <Section5 />
+        <Footer />
+        <Top/>
       </div>
     </>
   );

@@ -11,7 +11,7 @@ function Section3() {
   alt:"zugi"}, { image: roulette, alt:"roulette", }, { image: betting, alt:"betting" },];
   return (
     <>
-      <div className="bg-section3bg2 min-[1200px]:bg-section3bg min-[1441px]:bg-section3bg2 bg-no-repeat bg-cover bg-center min-[1200px]:min-h-[2068px] min-[1441px]:min-h-[0px] w-full translate-y-0 min-[1200px]:translate-y-[-238px] min-[1441px]:translate-y-0 py-12 sm:py-[100px] min-[1200px]:py-0 min-[1441px]:py-[100px] relative z-[1]">
+      <div className="bg-section3bg2 min-[1200px]:bg-section3bg min-[1441px]:bg-section3bg2 bg-no-repeat bg-cover bg-center min-[1200px]:min-h-[2068px] min-[1441px]:min-h-[0px] w-full translate-y-0 min-[1200px]:translate-y-[-238px] min-[1441px]:translate-y-0 py-12 sm:py-[100px] min-[1200px]:py-0 min-[1441px]:py-[100px] relative z-[1]" id="section3">
         <div className="relative max-w-[1164px] mx-auto px-3 w-full min-[1200px]:pt-[327px] min-[1441px]:pt-0 flex items-center flex-wrap gap-y-6">
           <div
             className="w-full min-[1150px]:w-1/2 flex justify-center min-[1150px]:jusitfy-start"

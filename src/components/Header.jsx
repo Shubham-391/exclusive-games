@@ -16,7 +16,7 @@ function Header() {
         {/* navbar */}
         <div className="bg-[rgba(255,255,255,0.1)] w-full h-[60px] sm:h-[90px]">
           <nav className="max-w-[1164px] mx-auto px-3 flex items-center justify-between h-full">
-            <a className="shrink-0 z-10" href="" onClick={() => setOpen(false)}>
+            <a className="shrink-0 z-10" href="#" onClick={() => setOpen(false)}>
               <img
                 className="w-[120px] md:w-[209px] h-[30px] md:h-[43px]"
                 src={logo}
@@ -45,7 +45,7 @@ function Header() {
               ></span>
             </div>
             <div
-              className={`bg-[#00141B] duration-300 min-[992px]:bg-transparent max-w-full min-[992px]:max-w-[829px] w-full flex flex-col top-0 bottom-0 absolute min-[992px]:relative min-[992px]:flex-row gap-7 min-[1200px]:gap-0 justify-center min-[992px]:justify-end min-[1200px]:justify-between items-center left-[-100%] min-[992px]:left-0 z-[5] ${
+              className={`bg-[#00141B] duration-300 min-[992px]:bg-transparent max-w-full min-[992px]:max-w-[829px] w-full flex flex-col top-0 bottom-0 fixed min-[992px]:relative min-[992px]:flex-row gap-7 min-[1200px]:gap-0 justify-center min-[992px]:justify-end min-[1200px]:justify-between items-center left-[-100%] min-[992px]:left-0 z-[5] ${
                 open == false ? "" : "left-[0%]"
               }`}
             >
@@ -53,7 +53,7 @@ function Header() {
                 <li>
                   <a
                     className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
-                    href=""
+                    href="#section1"
                     onClick={() => setOpen(false)}
                   >
                     Hogar
@@ -62,7 +62,7 @@ function Header() {
                 <li>
                   <a
                     className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
-                    href=""
+                    href="#section2"
                     onClick={() => setOpen(false)}
                   >
                     Misión
@@ -71,7 +71,7 @@ function Header() {
                 <li>
                   <a
                     className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
-                    href=""
+                    href="#section3"
                     onClick={() => setOpen(false)}
                   >
                     Tragamonedas
@@ -80,7 +80,7 @@ function Header() {
                 <li>
                   <a
                     className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
-                    href=""
+                    href="#section4"
                     onClick={() => setOpen(false)}
                   >
                     Por qué elegirnos
@@ -89,7 +89,7 @@ function Header() {
                 <li>
                   <a
                     className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
-                    href=""
+                    href="#section5"
                     onClick={() => setOpen(false)}
                   >
                     Ofertas

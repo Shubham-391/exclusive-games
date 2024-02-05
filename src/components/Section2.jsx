@@ -59,7 +59,7 @@ function Section2() {
   };
   return (
     <>
-      <div className="bg-white min-[1200px]:bg-section2bg min-[1200px]:bg-transparent min-[1441px]:bg-white bg-center bg-no-repeat bg-cover min-[1200px]:min-h-[1872px] min-[1441px]:min-h-[0px] min-[1441px]:py-[100px] py-12 sm:py-[100px] min-[1200px]:py-0 w-full flex justify-center flex-col relative z-[2]">
+      <div className="bg-white min-[1200px]:bg-section2bg min-[1200px]:bg-transparent min-[1441px]:bg-white bg-center bg-no-repeat bg-cover min-[1200px]:min-h-[1872px] min-[1441px]:min-h-[0px] min-[1441px]:py-[100px] py-12 sm:py-[100px] min-[1200px]:py-0 w-full flex justify-center flex-col relative z-[2]" id="section2">
         <div className="max-w-[1164px] mx-auto px-3 w-full mb-12 lg:mb-[150px]">
           <h2
             className="font-anton font-normal text-[30px] sm:text-[48px] sm:leading-[57.6px] text-[#00141B] mb-[30px] sm:mb-[60px] text-center"
