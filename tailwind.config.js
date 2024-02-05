@@ -19,6 +19,12 @@ export default {
       section3bg3: "url(/src/assets/images/section3bg3.webp)",
       section4bg: "url(/src/assets/images/section4bg.webp)",
       bgtick: "url(/src//assets//images/tick.webp)",
+      section5bg1:
+        "linear-gradient(306.99deg,rgba(81,200,239,0.04)-13.72%,rgba(122,245,122,0.04)102.02%);",
+      section5bg2:
+        "linear-gradient(306.99deg,rgba(81,200,239,0.5)-13.72%,rgba(122,245,122,0.5)102.02%)",
+      luxury: "url(/src//assets//images/luxury.webp)",
+      final: "url(/src/assets/images/final.webp)",
     },
   },
   plugins: [],

@@ -5,7 +5,7 @@ import night from "../assets/images/night.webp";
 function Section4() {
   return (
     <>
-      <div className="bg-white min-[1200px]:bg-section4bg min-[1200px]:bg-transparent min-[1441px]:bg-white bg-center bg-no-repeat bg-cover min-[1200px]:min-h-[1067px] min-[1441px]:min-h-[0px] min-[1441px]:py-[100px] py-12 sm:py-[100px] min-[1200px]:py-0 w-full translate-y-0 min-[1200px]:translate-y-[-455px] min-[1441px]:translate-y-0 flex justify-center flex-col">
+      <div className="bg-white min-[1200px]:bg-section4bg min-[1200px]:bg-transparent min-[1441px]:bg-white bg-center bg-no-repeat bg-cover min-[1200px]:min-h-[1067px] min-[1441px]:min-h-[0px] min-[1441px]:py-[100px] py-12 sm:py-[100px] min-[1200px]:py-0 w-full translate-y-0 min-[1200px]:translate-y-[-455px] min-[1441px]:translate-y-0 flex justify-center flex-col relative z-[2]">
         <div className="max-w-[1164px] mx-auto px-3 w-full flex items-center flex-wrap gap-y-8">
           <div className="w-full min-[1100px]:w-1/2 flex justify-center min-[1100px]:justify-start">
             <div

@@ -51,19 +51,19 @@ function Section3() {
                 data-aos-once="true"
                 data-aos-duration="1000"
               >
-                <li className="bg-bgtick bg-no-repeat bg-left pl-9 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
+                <li className="bg-bgtick bg-no-repeat bg-[3px_7px] bg-[length:18px_10px] pl-8 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
                   Tecnología HTML5
                 </li>
-                <li className="bg-bgtick bg-no-repeat bg-left pl-9 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
+                <li className="bg-bgtick bg-no-repeat bg-[3px_7px] bg-[length:18px_10px] pl-8 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
                   Versión PC y móvil
                 </li>
-                <li className="bg-bgtick bg-no-repeat bg-left pl-9 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
+                <li className="bg-bgtick bg-no-repeat bg-[3px_7px] bg-[length:18px_10px] pl-8 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
                   Control de RTP (controlás qué porcentaje pagar)
                 </li>
-                <li className="bg-bgtick bg-no-repeat bg-[0%_18%] pl-9 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
+                <li className="bg-bgtick bg-no-repeat bg-[3px_8px] bg-[length:18px_10px] pl-8 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
                   Bonos editables, happy hours, Jackpots, códigos promocionales.
                 </li>
-                <li className="bg-bgtick bg-no-repeat bg-left pl-9 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
+                <li className="bg-bgtick bg-no-repeat bg-[3px_7px] bg-[length:18px_10px] pl-8 font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)]">
                   Aplicación para android y windows de regalo.
                 </li>
               </ul>
