@@ -22,4 +22,6 @@
 .button2:hover + .button2-hover-gradient defs linearGradient .stop2 {
   stop-color: #ffffff;
 }
-
+.headerbg {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.0)89.07%, #00141B 97.5%), url('/src/assets/images/headerbg.webp');
+}
