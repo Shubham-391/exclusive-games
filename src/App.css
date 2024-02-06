@@ -23,28 +23,5 @@
   stop-color: #ffffff;
 }
 .headerbg {
-  background: url("/src/assets/images/headerbg.webp");
-}
-
-.button2bg {
-  background: linear-gradient(306.99deg, #51c8ef -13.72%, #7af57a 102.02%);
-}
-.button2bg2 {
-  background: linear-gradient(306.99deg, #51c8ef -13.72%, #ffffff 102.02%);
-}
-
-.section5bg1 {
-  background: linear-gradient(
-    306.99deg,
-    rgba(81, 200, 239, 0.04)-13.72%,
-    rgba(122, 245, 122, 0.04) 102.02%
-  );
-}
-
-.section5bg2 {
-  background: linear-gradient(
-    306.99deg,
-    rgba(81, 200, 239, 0.5)-13.72%,
-    rgba(122, 245, 122, 0.5) 102.02%
-  );
+  background: url('/src/assets/images/headerbg.webp');
 }
