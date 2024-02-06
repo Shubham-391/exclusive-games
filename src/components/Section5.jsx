@@ -72,7 +72,7 @@ function Section5() {
                     className="w-[290px] min-[400px]:w-[374px] h-[116px] rounded-[16px] bg-section5bg2 relative"
                   >
                     <div className="rounded-[16px] bg-[#00141B] absolute top-[0.8px] bottom-[0.8px] right-[0.8px] left-[0.8px]">
-                      <div className="pl-4 min-[400px]:pl-[56px] py-[24px] gap-[37px] .section5bg1 rounded-[16px] flex">
+                      <div className="pl-4 min-[400px]:pl-[56px] py-[24px] gap-[37px] section5bg1 rounded-[16px] flex">
                         <div className="w-[68px] h-[68px] rounded-[50%] bg-[rgba(122,245,122,0.08)] flex justify-center items-center">
                           <img
                             className="w-[37px] h-[37px]"
@@ -115,7 +115,7 @@ function Section5() {
             >
               Te ofrecemos las mejores experiencias de juegos para tus clientes.
             </p>
-            <div className="w-full min-h-[627px] rounded-[16px] border-[0.5px] border-solid border-[rgba(255,255,255,0.5)] .section5bg1 flex flex-wrap p-4 lg:p-0">
+            <div className="w-full min-h-[627px] rounded-[16px] border-[0.5px] border-solid border-[rgba(255,255,255,0.5)] section5bg1 flex flex-wrap p-4 lg:p-0">
               <div className="w-full lg:w-[59%] flex justify-center lg:justify-start relative">
                 <div
                   className="max-w-[650px] max-h-[471px] overflow-hidden lg:mt-[77px]"
@@ -213,7 +213,7 @@ function Section5() {
               </div>
             </div>
 
-            <div className="w-full min-h-[575px] rounded-[16px] border-[0.5px] border-solid border-[rgba(255,255,255,0.5)] .section5bg1 flex items-center flex-col-reverse min-[900px]:flex-row p-5 min-[400px]:p-4 min-[1200px]:p-0 gap-y-6">
+            <div className="w-full min-h-[575px] rounded-[16px] border-[0.5px] border-solid border-[rgba(255,255,255,0.5)] section5bg1 flex items-center flex-col-reverse min-[900px]:flex-row p-5 min-[400px]:p-4 min-[1200px]:p-0 gap-y-6">
               <div
                 className="w-full min-[900px]:w-[43%] min-[1200px]:pl-[50px] flex justify-center min-[900px]:justify-start"
                 data-aos="fade-right"
