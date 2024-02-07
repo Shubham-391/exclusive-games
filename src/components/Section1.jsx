@@ -7,7 +7,7 @@ function Section1() {
   return (
     <>
       <div className="relative" id="section1">
-        <div className="max-w-[1164px] mx-auto px-3 mt-12 sm:mt-[75px] mb-12 sm:mb-[100px] flex flex-wrap gap-6 min-[1150px]:gap-0 relative z-[3]">
+        <div className="max-w-[1164px] mx-auto px-3 mt-12 sm:mt-[75px] sm:mb-[100px] flex flex-wrap gap-y-12 relative z-[3]">
           <div className="w-full min-[1150px]:w-1/2 flex flex-col items-center min-[1150px]:items-start">
             <div className="max-w-[538px] w-full flex flex-col items-center min-[1150px]:items-start">
               <div
@@ -45,7 +45,7 @@ function Section1() {
                 </p>
                 <a
                   className="group"
-                  href=""
+                  href="#"
                   data-aos="fade-right"
                   data-aos-once="true"
                   data-aos-duration="1000"
@@ -63,8 +63,8 @@ function Section1() {
             </div>
           </div>
           <div className="w-full min-[1150px]:w-1/2 flex flex-col items-center min-[1150px]:items-end">
-            <div className="max-w-[538px] w-full flex flex-col items-center min-[1150px]:items-start">
-              <div className="max-w-[444px] mb-6 sm:mb-[60px] flex flex-col items-center min-[1150px]:items-start">
+            <div className="max-w-[538px] w-full flex flex-col-reverse min-[1150px]:flex-col items-center min-[1150px]:items-start">
+              <div className="max-w-[444px] mt-6 sm:mt-[60px] min-[1150px]:mt-0 min-[1150px]:mb-[60px] flex flex-col items-center min-[1150px]:items-start">
                 <h2
                   className="font-anton font-normal text-[30px] sm:text-[48px] leading-[57.6px] text-white mb-4"
                   data-aos="fade-left"
@@ -86,7 +86,7 @@ function Section1() {
                 </p>
                 <a
                   className="group"
-                  href=""
+                  href="#"
                   data-aos="fade-left"
                   data-aos-once="true"
                   data-aos-duration="1000"

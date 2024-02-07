@@ -52,7 +52,7 @@ function Header() {
               <ul className="flex flex-col items-center min-[992px]:flex-row gap-7">
                 <li>
                   <a
-                    className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
+                    className="font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)] duration-300 hover:text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
                     href="#section1"
                     onClick={() => setOpen(false)}
                   >
@@ -61,7 +61,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
+                    className="font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)] duration-300 hover:text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
                     href="#section2"
                     onClick={() => setOpen(false)}
                   >
@@ -70,7 +70,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
+                    className="font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)] duration-300 hover:text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
                     href="#section3"
                     onClick={() => setOpen(false)}
                   >
@@ -79,7 +79,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
+                    className="font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)] duration-300 hover:text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
                     href="#section4"
                     onClick={() => setOpen(false)}
                   >
@@ -88,7 +88,7 @@ function Header() {
                 </li>
                 <li>
                   <a
-                    className="font-inter font-medium text-base leading-[25.6px] text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
+                    className="font-inter font-medium text-base leading-[25.6px] text-[rgba(255,255,255,0.8)] duration-300 hover:text-white relative after:absolute after:w-0 after:bg-white after:left-[50%] after:bottom-[-2px] after:duration-300 hover:after:w-full hover:after:left-0 after:h-[1px]"
                     href="#section5"
                     onClick={() => setOpen(false)}
                   >

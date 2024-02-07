@@ -38,9 +38,9 @@ function Section5() {
   ];
   return (
     <>
-      <div className="min-[1200px]:translate-y-[-455px] min-[1441px]:translate-y-0 mt-12 md:mt-[100px] mb-12 sm:mb-[150px] min-[1200px]:mb-[100px] min-[1441px]:mb-[150px] relative" id="section5">
+      <div className="min-[1200px]:translate-y-[-455px] min-[1441px]:translate-y-0 md:mt-[100px] mb-12 sm:mb-[150px] min-[1200px]:mb-[100px] min-[1441px]:mb-[150px] relative" id="section5">
         {/* part1 */}
-        <div className="max-w-[1164px] mx-auto px-3 w-full flex flex-wrap gap-y-6 relative z-[1]">
+        <div className="max-w-[1164px] mx-auto px-3 w-full flex flex-wrap gap-y-12 relative z-[1]">
           <div
             className="w-full min-[1150px]:w-1/2 justify-center flex min-[1150px]:justify-start"
             data-aos="fade-right"
@@ -97,7 +97,7 @@ function Section5() {
           </div>
         </div>
         {/*part2  */}
-        <div className="my-6 sm:my-12 md:my-[150px] relative z-[1]">
+        <div className="my-12 md:my-[150px] relative z-[1]">
           <div className="max-w-[1164px] mx-auto px-3 w-full">
             <h2
               className="font-anton font-normal text-[30px] sm:text-[48px] sm:leading-[57.6px] text-center text-white mb-4"
@@ -115,10 +115,11 @@ function Section5() {
             >
               Te ofrecemos las mejores experiencias de juegos para tus clientes.
             </p>
+
             <div className="w-full min-h-[627px] rounded-[16px] border-[0.5px] border-solid border-[rgba(255,255,255,0.5)] bg-section5bg1 flex flex-wrap p-4 lg:p-0">
               <div className="w-full lg:w-[59%] flex justify-center lg:justify-start relative">
                 <div
-                  className="max-w-[650px] max-h-[471px] overflow-hidden lg:mt-[77px]"
+                  className="max-w-[650px] max-h-[471px] overflow-hidden lg:mt-[77px] relative"
                   data-aos="fade-right"
                   data-aos-once="true"
                   data-aos-duration="1000"
@@ -258,7 +259,7 @@ function Section5() {
           </div>
         </div>
         {/* part3 */}
-        <div className="max-w-[1164px] mx-auto px-3 w-full mb-6 sm:mb-12 md:mb-[150px] flex flex-col items-center relative z-[1]">
+        <div className="max-w-[1164px] mx-auto px-3 w-full mb-12 md:mb-[150px] flex flex-col items-center relative z-[1]">
           <h2
             className="font-anton font-normal text-[30px] sm:text-[48px] sm:leading-[57.6px] text-white text-center mb-[30px] sm:mb-[60px]"
             data-aos="zoom-in"
@@ -302,7 +303,7 @@ function Section5() {
           </p>
         </div>
         {/* part4 */}
-        <div className="max-w-[994px] mx-auto px-3 w-full mb-6 sm:mb-12 md:mb-[150px] relative z-[1]">
+        <div className="max-w-[994px] mx-auto px-3 w-full mb-12 md:mb-[150px] relative z-[1]">
           <h2
             className="font-anton font-normal text-[30px] sm:text-[48px] sm:leading-[57.6px] text-center text-white mb-[30px] sm:mb-[60px]"
             data-aos="zoom-out"

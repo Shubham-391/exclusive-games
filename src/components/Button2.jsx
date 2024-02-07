@@ -4,12 +4,8 @@ function Button2(props) {
   return (
     <>
       <div className={`relative ${props.className}`} >
-        <button className="group button2 bubble-btn font-inter font-bold text-base leading-[25.6px] text-black bg-button2bg rounded-[41px] px-[46px] py-[13px] relative overflow-hidden duration-500 z-[1] hover:text-black">
-          {props.text}
-          <span className="absolute w-[25%] h-full bg-button2bg2 translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-          <span className="absolute w-[25%] h-full bg-button2bg2 translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-          <span className="absolute w-[25%] h-full bg-button2bg2 translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
-          <span className="absolute w-[25%] h-full bg-button2bg2 translate-y-[150%] rounded-[41px] duration-500 z-[-1] group-hover:translate-y-0 group-hover:scale-[2]"></span>
+        <button className="group button2 bubble-btn font-inter font-bold text-base leading-[25.6px] text-black bg-button2bg hover:bg-button2bg3 rounded-[41px] px-[46px] py-[13px] relative overflow-hidden duration-500 z-[1] hover:text-black">
+          {props.text}         
         </button>
         <svg
           className="absolute bottom-[-7px] left-[-6px] button2-hover-gradient"
